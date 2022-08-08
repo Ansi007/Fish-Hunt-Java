@@ -1,4 +1,4 @@
-
+    
 import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.Toolkit;
@@ -19,7 +19,7 @@ import javax.swing.JLabel;
 public class BucketView extends JLabel implements Observer {
     
     BucketData bucket;
-    Image bucketImage = Toolkit.getDefaultToolkit().getImage("C:\\Users\\TAYYAB\\Desktop\\Java\\Fish Hunt\\Assets\\Material\\My Use\\bucket.png");
+    Image bucketImage = Toolkit.getDefaultToolkit().getImage("D:\\Game Development\\Java\\Fish-Hunt-Java\\bucket.png");
 
     public BucketView(BucketData b) {
         bucket = b;

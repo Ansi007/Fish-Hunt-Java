@@ -37,8 +37,8 @@ public class FishMainView {
         
         bucket = B;
         fishView = new FishView(fc);
-        standardFish = Toolkit.getDefaultToolkit().getImage("C:\\Users\\TAYYAB\\Desktop\\Java\\Fish Hunt\\Assets\\Material\\My Use\\fish.png");
-        octopus = Toolkit.getDefaultToolkit().getImage("C:\\Users\\TAYYAB\\Desktop\\Java\\Fish Hunt\\Assets\\Material\\My Use\\octopus.png");
+        standardFish = Toolkit.getDefaultToolkit().getImage("D:\\Game Development\\Java\\Fish-Hunt-Java\\fish.png");
+        octopus = Toolkit.getDefaultToolkit().getImage("D:\\Game Development\\Java\\Fish-Hunt-Java\\octopus.png");
     }
     
 
@@ -79,7 +79,7 @@ public class FishMainView {
         fr.add(bv,c);
                
         JPanel waterPanel = new JPanel();
-        ImageIcon waterImg = new ImageIcon("C:\\Users\\TAYYAB\\Desktop\\Java\\Fish Hunt\\Assets\\Material\\My Use\\wave5.gif");
+        ImageIcon waterImg = new ImageIcon("D:\\Game Development\\Java\\Fish-Hunt-Java\\wave.gif");
         JLabel water = new JLabel(waterImg);
         waterPanel.setBackground(Color.cyan);
         waterPanel.add(water);

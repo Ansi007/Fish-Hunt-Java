@@ -19,7 +19,7 @@ public class Driver {
 //        m.setLocationRelativeTo(null);
 //        m.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\TAYYAB\\Desktop\\Java\\Fish Hunt\\Assets\\Material\\My Use\\icon.png"));
         PlayMusic p = new PlayMusic();
-        p.playMusicLoop("C:\\Users\\TAYYAB\\Desktop\\Java\\Fish Hunt\\Assets\\Material\\My Use\\bkmusic.wav");
+        //p.playMusicLoop("C:\\Users\\TAYYAB\\Desktop\\Java\\Fish Hunt\\Assets\\Material\\My Use\\bkmusic.wav");
         Environment e = new Environment();
     }
 }
